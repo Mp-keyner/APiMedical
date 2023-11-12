@@ -19,3 +19,13 @@ app.get("/usuarios", (req, res) => {
     },
   ]);
 });
+
+const errorHandler = require("express-async-handler");
+
+app.use(
+  errorHandler((err) => {
+    res.status(err.statusCode || 500).send({
+      error: err.message,
+    });
+  })
+);
