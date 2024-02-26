@@ -242,6 +242,29 @@ app.get("/1", (req, res) => {
   });
 });
 
+app.get("/pie", (req, res) => {
+  res.send([
+    {
+      id: 1,
+      name: 'Archbivo_1.png',
+      date: '2024-02-07',
+      img: 'https://firebasestorage.googleapis.com/v0/b/fb-picporter.appspot.com/o/pie%2FOIG1%20(1).jpg?alt=media&token=453a2503-52ba-4081-aa66-7cc2e1d5aa01',
+    },
+    {
+      id: 1,
+      name: 'Archbivo_2.png',
+      date: '2024-02-07',
+      img: 'https://firebasestorage.googleapis.com/v0/b/fb-picporter.appspot.com/o/pie%2FOIG1%20(2).jpg?alt=media&token=91d44757-616b-442b-aed5-3685523aa7fd',
+    },
+    {
+      id: 1,
+      name: 'Archbivo_2.png',
+      date: '2024-02-07',
+      img: 'https://firebasestorage.googleapis.com/v0/b/fb-picporter.appspot.com/o/pie%2FOIG1%20(3).jpg?alt=media&token=3a226dd5-dc91-4990-a4c7-65e9283767c5',
+    },
+  ]);
+});
+
 app.get("/testimony", (req, res) => {
   res.send([
     {
