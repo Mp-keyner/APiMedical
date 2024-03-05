@@ -3,3 +3,5 @@ https://firebasestorage.googleapis.com/v0/b/steam-academy-b3423.appspot.com/o/Gr
 https://firebasestorage.googleapis.com/v0/b/steam-academy-b3423.appspot.com/o/modo1.png?alt=media&token=792eeb1c-fdfa-47ee-a724-b29761ca8c56
 
 https://firebasestorage.googleapis.com/v0/b/steam-academy-b3423.appspot.com/o/sect2.png?alt=media&token=eacc5a3c-30f2-440b-af05-094016418f9f
+
+https://firebasestorage.googleapis.com/v0/b/steam-academy-b3423.appspot.com/o/setPru2.png?alt=media&token=9c3131ba-f8f2-4465-8075-34c58a6c5821
